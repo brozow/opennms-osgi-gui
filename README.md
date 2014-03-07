@@ -5,8 +5,8 @@ Sample App for adding an OSGi GUI to opennms maps menu
 
 This sample app builds a VERY BASIC Vaadin app as an OSGi bundle.
 
-This app uses blueprint to register itself with the OpenNMS web
-container at the /example url (making its URL http://<server>:8980/opennms/example)
+This app uses blueprint to register itself with the OpenNMS web container 
+at the /example url (making its URL [http://localhost:8980/opennms/example](http://localhost:8980/opennms/example))
 
 You can try this out as follows:
 
