@@ -39,7 +39,7 @@ You can try this out as follows:
 5. Once you have completed this you can do 
 
    ```
-   opennms> feature:list | grep vaadin
+   opennms> features:list | grep vaadin
 
    [uninstalled] [1.0-SNAPSHOT   ] vaadin-osgi-example		      vaadin-osgi-example     Example Vaadin GUI install with OSGi
    [installed  ] [1.13.1-SNAPSHOT] vaadin-snmp-events-and-metrics	opennms-1.13.1-SNAPSHOT OpenNMS Features Admin UI for SNMP Events and Metrics
@@ -52,7 +52,7 @@ You can try this out as follows:
 6. In install and run the example issue the following command
 
    ```
-   opennms> feature:install -v vaadin-osgi-example
+   opennms> features:install -v vaadin-osgi-example
    ```
 7. Now log into the OpenNMS GUI.  After logging in, you can visit the url for the example. [http://localhost:8980/opennms/example](http://localhost:8980/opennms/example).
 
