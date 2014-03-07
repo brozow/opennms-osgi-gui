@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0" name="vaadin-osgi-example">    
+  
+  <repository>mvn:org.opennms.osgi/all/1.13.1-SNAPSHOT/xml/features</repository>
+    
+  <feature name="vaadin-osgi-example" version="1.0-SNAPSHOT" description="Example Vaadin GUI install with OSGi">
+    <details>OpenNMS Vaadin UI Example</details>
+    <feature>vaadin</feature>
+    <bundle>mvn:org.opennms.example/vaadin-osgi/1.0-SNAPSHOT</bundle>
+  </feature>
+
+</features>
